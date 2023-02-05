@@ -7,8 +7,7 @@ class DetailController extends Controller {
   final DetailPresenter detailPresenter;
   final Hospital _hospital;
   Hospital get hospital => _hospital;
-  DetailController(this._hospital)
-      : detailPresenter = DetailPresenter(_hospital);
+  DetailController(this._hospital) : detailPresenter = DetailPresenter();
 
   @override
   void initListeners() {}

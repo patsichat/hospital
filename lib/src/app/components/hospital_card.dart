@@ -53,10 +53,4 @@ class HospitalCard extends StatelessWidget {
       ),
     );
   }
-
-  void navigate(context) {
-    // var args = {'event': _event, 'user': _user};
-    // args['isUserEvent'] = isUserEvent != null ? true : false;
-    // Navigator.pushNamed(context, '/event', arguments: args);
-  }
 }
